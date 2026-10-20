@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.fabula.PrimaryController">
+   
+    <children>
+        
+    <Label text="La liebre y la tortuga"/>
+    <Button fx:id="btnIniciar" text="Iniciar carrera" onAction="#iniciarCarrera"/>
+
+    <Label text="Liebre"/>
+
+    <ProgressBar fx:id="barraLiebre" progress="0"/>
+
+    <Label fx:id="lblLiebre" text="0%"/>
+
+    <Label text="Tortuga"/>
+
+    <ProgressBar fx:id="barraTortuga" progress="0"/>
+
+    <Label fx:id="lblTortuga"/>
+
+    <Label fx:id="lblResultado" text="Presiona iniciar para comenzar la carrera"/>
+          
+    </children>
+   
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+</VBox>
